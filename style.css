@@ -177,13 +177,7 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
-.history__numbers
-.history__desc
-.history__title{
-    text-align: center;
-    width: 444px;
-    margin-bottom: 21px;
-}
+
 .history__title span{
     color:#D67E34;
 }
