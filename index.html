@@ -31,7 +31,6 @@
                 <div class="nav">
                     <a class="nav__item" href="#">Home</a>
                     <a class="nav__item" href="#">Menu</a>
-                    <!-- <a class="nav__item" href="#">Reservation</a> -->
                     <a class="nav__item" href="#">Info</a>
                 </div>
 
@@ -61,9 +60,14 @@
                     <a class="btn__item" href="#">CALL US</a>
                 </div>
                 <div class="burger__menu">
-                    <a href="">
+                    <button id="burger__menu">
                         <img src="img/BurgerMenu.png" alt="burgerMenu">
-                    </a>
+                    </button>
+                    <div id="burger__menu__item" class="burger__menu__item hidden">
+                        <a class="nav__item block" href="#">Home</a>
+                        <a class="nav__item block" href="#">Menu</a>
+                        <a class="nav__item block" href="#">Info</a>
+                    </div>
                 </div>
             </div>
             <div class="header__down">
@@ -308,15 +312,15 @@
                 Nikolay
             </div>
             <div class="ellipse__container">
-                <a href="http://" class="ellipse">
+                <div class="ellipse">
                     <img src="img/Ellipse.png" alt="ellipse" class="ellipse">
-                </a>
-                <a href="http://" class="ellipse">
+                </div>
+                <div class="ellipse">
                     <img src="img/Ellipse.png" alt="ellipse" class="ellipse">
-                </a>
-                <a href="#" class="ellipse">
-                <img src="img/Ellipse2.png" alt="ellipse" class="ellipse2">
-                </a>
+                </div>
+                <div class="ellipse">
+                    <img src="img/Ellipse2.png" alt="ellipse" class="ellipse2">
+                </div>
             </div>
         </div>
     </div>
@@ -364,5 +368,7 @@
     <footer class="footer">
         pet project SS 2022.11
     </footer>
+    <!-- add -->
+    <script src="script.js"></script>
 </body>
 </html>

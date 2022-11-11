@@ -511,6 +511,25 @@ body{
 .burger__menu{
     display: none;
 }
+.block{
+    display: block;
+}
+.burger__menu__item{
+    position: absolute;
+    margin-top: 20px;
+}
+.burger__menu__item a {
+    margin-bottom: 10px;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.hidden{
+    display: none;
+}
+
 @media (max-width: 1500px){
     .gallery__photo{
         display: block;
@@ -645,5 +664,9 @@ body{
     .container{
         margin: auto 40px;
     }
+    .cooks__img{
+        width: 70%;
+    }
 }
+
 
