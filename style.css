@@ -170,6 +170,12 @@ body{
     margin-top: 166px;
     padding-bottom: 250px;
 }
+.history__title{
+    font-family: 'Tinos', serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 .history__numbers
 .history__desc
 .history__title{
@@ -604,6 +610,7 @@ button{
     .history__numbers{
         display: flex;
         justify-content: space-around;
+        margin-top: 20px;
     }
     .history__numbers__item{
         margin: 0 auto;
@@ -652,7 +659,7 @@ button{
         width: auto;
     }
     .long{
-        width: 70%;
+        width: 80%;
     }
     .burgers__pizza{
         margin: 0 auto;
@@ -665,7 +672,36 @@ button{
         margin: auto 40px;
     }
     .cooks__img{
-        width: 70%;
+        width: 80%;
+    }
+    .header__title{
+        font-family: 'Tinos', serif;
+        color: #D67E35;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .header__subtitle{
+        font-size: 40px;
+    }
+    .header__btn{
+        margin-top: 45px;
+    }
+    .card__desc{
+        font-size: 22px;
+    }
+    .history__title{
+        font-family: 'Tinos', serif;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .dishes__title{
+        margin-bottom: 30px;
+    }
+    .menu__title{
+        font-family: 'Tinos', serif;
+        font-size: 54px;
+        font-weight: 400;
+        padding-bottom: 90px;
     }
 }
 
