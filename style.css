@@ -170,6 +170,8 @@ body{
     margin-top: 166px;
     padding-bottom: 250px;
 }
+.history__numbers
+.history__desc
 .history__title{
     font-family: 'Tinos', serif;
     font-size: 54px;
@@ -181,6 +183,7 @@ body{
 .history__title span{
     color:#D67E34;
 }
+
 .history__desc{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -323,6 +326,7 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     padding-bottom: 226px;
+    margin-top: 152px;
 }
 .menu__items{
     display: flex;
@@ -368,9 +372,13 @@ body{
 }
 .menu__button{
     margin-top: 25px;
+    margin-bottom: 30px;
 }
 .menu__image{
     position: relative;
+}
+.menu__img{
+    width: 80%;
 }
 .menu__price{
     position: absolute;
@@ -500,3 +508,142 @@ body{
     text-align: center;
 
 }
+.burger__menu{
+    display: none;
+}
+@media (max-width: 1500px){
+    .gallery__photo{
+        display: block;
+    }
+
+    .img__gal,
+    .gallery__photo__up,
+    .gallery__photo__down{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img__gal{
+        margin-bottom: 20px;
+    }
+    .gallery__photo__left{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1300px){
+    .menu__items{
+        display: block;
+    }
+    .menu__item{
+        margin: 20px auto;
+        width: 600px;
+    }
+
+    .header__title{
+        position: static;
+    }
+    .header__title__down::before,
+    .header__title__down::after{
+        content: none;
+    }
+    .cooks__photos{
+        display: block;
+    }
+    .cooks__photos img{
+        display: block;
+        margin: 20px auto;
+    }
+    .block__holder{
+        display: block;
+    }
+    .left__title,
+    .left__text,
+    .right__button{
+        text-align: center;
+    }
+    .right__button{
+        margin-top: 30px;
+    }
+    .history__info{
+        display: block;
+    }
+    .history__numbers,
+    .history__desc,
+    .history__title{
+        width: auto;
+        text-align: center;
+
+    }
+    .history__holder{
+        display: block;
+        text-align: center;
+    }
+    .history__imgs{
+        display:none;
+    }
+    .history__numbers{
+        display: flex;
+        justify-content: space-around;
+    }
+    .history__numbers__item{
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1100px){
+    .burger__menu{
+        display: block;
+    }
+    .nav,
+    .cart,
+    .phone,
+    .btn{
+        display: none;
+    }
+    .header__line{
+        display: flex;
+        justify-content: space-between;
+    }
+    .burgers{
+        display: block;
+        text-align: center;
+    }
+    .burgers__item{
+        display: flex;
+        justify-content: center;
+    }
+    .burgers__items{
+        margin-top: 50px;
+    }
+    .burger__text span{
+        display: none;
+    }
+}
+@media (max-width: 900px){
+    .card__holder{
+        display: block;
+    }
+    .card{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+@media(max-width: 700px){
+    .menu__item{
+        width: auto;
+    }
+    .long{
+        width: 70%;
+    }
+    .burgers__pizza{
+        margin: 0 auto;
+    }
+    .pizza{
+        width: 100%;
+        
+    }
+    .container{
+        margin: auto 40px;
+    }
+}
+
